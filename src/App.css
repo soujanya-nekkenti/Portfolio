@@ -1,7 +1,7 @@
 .header-color {
   background: #FFAFBD;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to bottom, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
@@ -11,11 +11,13 @@
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0.3;
 }
 
 .avatar-img {
   height: 100%;
-  padding-top: 5em;
+  width: 100%;
+  padding-top: 3em;
 }
 
 .aboutme-img {
@@ -33,23 +35,24 @@
 }
 
 .aboutme-grid h2{
-  padding-top: 30px;
+  padding-top: 10px;
+  font-family: Satisfy;
 }
 
 .about-me {
   opacity: .8;
-  width: 75%;
-  padding-top: 20px;
-  border-radius: 10px;
+  width: 80%;
+  margin: 0;
+  text-align: left;
 }
 
 .banner-text {
-  background-color: white;
+  background-color: transparent;
   opacity: .8;
   width: 75%;
   margin: auto;
   text-align: center;
-  border-radius: 10px;
+  margin-top: 80px;
 }
 
 .banner-text h1 {
@@ -67,6 +70,7 @@
 
 .banner-text p {
   color: black;
+  font-weight: bold;
   font-size: 32px;
   padding: 1em;
   font-family: Courgette;
@@ -90,8 +94,9 @@
 .social-links i {
   color: black;
   font-size: 4em;
-  padding: 8px;
+  padding: 2px;
   cursor: pointer;
+  font-size: 40px;
 }
 
 .contact-body {

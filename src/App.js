@@ -12,8 +12,8 @@ class App extends Component {
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'black', fontFamily: 'Courgette', fontSize:'24px'}}
                 to="/">My Portfolio</Link>} scroll>
             <Navigation>
-                <Link to="/resume" style={{ color: 'black', fontFamily: 'Satisfy', fontSize:'20px'}}>Resume</Link>
                 <Link to="/aboutMe" style={{ color: 'black', fontFamily: 'Satisfy', fontSize:'20px'}}>About Me</Link>
+                <Link to="/resume" style={{ color: 'black', fontFamily: 'Satisfy', fontSize:'20px'}}>Resume</Link>
                 <Link to="/projects" style={{ color: 'black', fontFamily: 'Satisfy', fontSize:'20px'}}>Projects</Link>
                 <Link to="/contact" style={{ color: 'black', fontFamily: 'Satisfy', fontSize:'20px'}}>Contact</Link>
             </Navigation>
@@ -21,8 +21,8 @@ class App extends Component {
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}}
                 to="/">Home</Link>}>
             <Navigation>
-                <Link to="/resume">Resume</Link>
                 <Link to="/aboutMe">About Me</Link>
+                <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
