@@ -139,6 +139,7 @@ background: linear-gradient(to bottom, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, 
 
 .resume-right-col {
   background: #27221f;
+  opacity: 0.8;
   color: white;
   padding: 2em;
 }
