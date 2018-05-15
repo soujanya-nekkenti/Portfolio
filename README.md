@@ -7,7 +7,6 @@ This projects is a simple personal portfolio application in React using Create-R
 - React Router v4
 
 ## Set Up:
-install npm, node
-Clone repo, install, cd into folder and run:
--npm install
--npm start
+install npm, node. Clone repo, install, cd into folder and run:
+- npm install
+- npm start
