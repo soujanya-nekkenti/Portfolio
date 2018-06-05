@@ -15,6 +15,7 @@ class App extends Component {
                 <Link to="/aboutMe" style={{ color: 'black', fontFamily: 'Satisfy', fontSize:'20px'}}>About Me</Link>
                 <Link to="/resume" style={{ color: 'black', fontFamily: 'Satisfy', fontSize:'20px'}}>Resume</Link>
                 <Link to="/projects" style={{ color: 'black', fontFamily: 'Satisfy', fontSize:'20px'}}>Projects</Link>
+                <Link to="/blog" style={{ color: 'black', fontFamily: 'Satisfy', fontSize:'20px'}}>Blog</Link>
                 <Link to="/contact" style={{ color: 'black', fontFamily: 'Satisfy', fontSize:'20px'}}>Contact</Link>
             </Navigation>
         </Header>
@@ -24,6 +25,7 @@ class App extends Component {
                 <Link to="/aboutMe">About Me</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
+                <Link to="/blog">Blog</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
